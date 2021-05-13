@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Your Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head> 
+<body>
+  <aside id="side-menu">
+    <nav> 
+      <a href="index.html"><i class="fa fa-user"></i><img width=150px height=auto src="images/logo-scroll.png" alt=""></a>
+      <a href="#" class="active"><i class="fa fa-home"></i> Home</a>
+      <a href="profile.html"><i class="fa fa-user"></i> Profile</a>
+      <a href="delivery.html"><i class="fa fa-truck"></i> Your Delivery</a>
+      <a href="settings.html"><i class="fa fa-cog"></i> Settings</a>
+    </nav>
+  </aside>
+
+
+  <main id="content-container">
+    <section class="content-heading">
+      <h1>Your Dashboard</h1>
+    </section>
+
+    <section class="card-container">
+      <div class="card col-md-4">
+        <div class="user-avatar"></div>
+        <span class="user-name">Aniket Dewangan</span>
+        <span class="user-residence">Durgapur, <strong>West Bengal India</strong></span>
+      </div>
+
+      <div class="summary">
+        <div class="summary-welcome">
+          <h6>Delivery Statistics</h6>
+        </div>
+        <hr>
+        <div class="summary-figures">
+          <div class="figure">
+            <p>     1    Delivered</p>
+          </div>
+          <div class="figure">
+            <p>     3    Pending</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Parcel ID</th>
+          <th>Parcel weight</th>
+          <th>Pickup location</th>
+          <th>Destination</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>SIN83621</td>
+          <td>.5kg</td>
+          <td>AK-3, Aalingan Apartment, Durgapur</td>
+          <td>Kalyan</td>
+          <td>Delivered</td>
+        </tr>
+        <tr>
+          <td>SIN23142</td>
+          <td>2kg</td>
+          <td>AK-3, Aalingan Apartment, Durgapur</td>
+          <td>Nagpur</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>SIN12346</td>
+          <td>1kg</td>
+          <td>AK-3, Aalingan Apartment, Durgapur</td>
+          <td>Gaziabad</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>SIN32523</td>
+          <td>8kg</td>
+          <td>AK-3, Aalingan Apartment, Durgapur</td>
+          <td>Kolkata</td>
+          <td>Pending</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+</body>
+</html>
